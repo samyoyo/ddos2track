@@ -1,4 +1,4 @@
-#ddos2track
+# ddos2track
 
 With this tool you can block HTTP Flood Attacks and analyze them with a honeypot.
 
@@ -13,10 +13,10 @@ If an attacker attack your server in preconfigured port (80), the detector will 
 You can modify options and active redir2attackers, this option allows you to redirect all trafic to attacker IP, so attacker will be DoSing its own network ;)
 
 To view all DDoS Requests you can view the logs at '/tools/analyzer/ddos.log' To view all attackers IPs you can view it at 'tools/detector/attackers.txt'
-#INSTALLING
+# INSTALLING
 
 chmod 777 INSTALL.sh sh INSTALL.sh
-#USING
+# USING
 
 ./ddos2track
 Follow instructions
