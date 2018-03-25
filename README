@@ -1,0 +1,42 @@
+
+
+██████╗ ██████╗  ██████╗ ███████╗██████╗ ████████╗██████╗  █████╗  ██████╗██╗  ██╗
+██╔══██╗██╔══██╗██╔═══██╗██╔════╝╚════██╗╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝
+██║  ██║██║  ██║██║   ██║███████╗ █████╔╝   ██║   ██████╔╝███████║██║     █████╔╝ 
+██║  ██║██║  ██║██║   ██║╚════██║██╔═══╝    ██║   ██╔══██╗██╔══██║██║     ██╔═██╗  
+██████╔╝██████╔╝╚██████╔╝███████║███████╗   ██║   ██║  ██║██║  ██║╚██████╗██║  ██╗
+╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   2.0
+                                                                                  
+                                                                  By KernelFl00d
+-------------------------------------------------------------------------------------------
+
+ddos2track is an opensource tool that protect your server from DDoS Attacks.
+
+Options
+-----------
+
+- Detect DDoS and send you an email message with DDoS Information.
+
+- Redirect DDoS Traffic to a honeypot and analyze request, then save all requests in a log file.
+
+- Block Attackers IP Addresses and map all the IP Addresses belonging to the attacker botnet.
+
+- You can redirect DDoS traffic to attackers IP Addresses and DoS their connection ;)
+
+
+Default Port to protect: 80
+Default Port to run honeypot: 8089
+
+If you want to change, please change it in source code
+
+
+INSTALLING
+------------
+chmod 777 INSTALL.sh && sh INSTALL.sh
+
+
+USAGE
+------------
+./ddos2track
+
+
